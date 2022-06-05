@@ -1,0 +1,87 @@
+body {
+    background-image:url('/images/original.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+.topNav{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    min-height:8vh;
+    margin-top:30px;
+    background:black;
+}
+   
+.left-logos{
+    float:left;
+
+}
+ .nasa-01-1 {
+    height: 165px;
+    object-fit: cover;
+    width: 193px;
+  }
+  .space-place{
+    display: inline-block;
+    flex-direction: row;
+    margin-bottom: 21.25px;
+    margin-left: 16px;
+    min-height: 104px;
+    width: 372px;
+  }
+.top-button-container{
+margin:2px;
+display: inline-block;
+}
+.btn-primary{
+background-color: #0B3D91;
+}
+
+.btnPlanet{
+    margin-left:50%;
+    margin-top:5%;
+    background-color: #0B3D91;
+    color: white;
+    width: 150px;
+    text-align: center;
+    height: 50px;
+    /* Add the css property transition here! */
+  transition:all 0.3s;
+  }
+  /* active state */
+  .btnPlanet:hover {
+    /* Add your hover state css here. */
+    background-color:#C22D2D;
+    }
+h1{
+    margin-left: 40%;
+    margin-top:3%;
+    color:white;
+}
+
+
+.bounceMe{
+max-width: 100%;
+  height: auto;
+  float:right;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.bounceMe{
+animation: bounce2 2s ease infinite;
+      }
+@keyframes bounce2 {
+0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+40% {transform: translateY(-30px);}
+60% {transform: translateY(-15px);}
+} 
+    
+    
+    
+    
+    
