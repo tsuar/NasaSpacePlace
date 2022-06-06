@@ -40,7 +40,7 @@ display: inline-block;
 .btn-primary{
 background-color: #0B3D91;
 }
-
+/* buttons*/
 .btnPlanet{
     margin-left:50%;
     margin-top:5%;
@@ -49,7 +49,7 @@ background-color: #0B3D91;
     width: 150px;
     text-align: center;
     height: 50px;
-    /* Add the css property transition here! */
+        /* Add the css property transition here! */
   transition:all 0.3s;
   }
   /* active state */
@@ -57,31 +57,56 @@ background-color: #0B3D91;
     /* Add your hover state css here. */
     background-color:#C22D2D;
     }
+.yellow{
+position: relative;
+left: -150px;
+}
+.purple{
+margin-left: auto;
+top: 150px;
+position: relative;
+}
 h1{
     margin-left: 40%;
     margin-top:3%;
     color:white;
 }
 
-
-.bounceMe{
-max-width: 100%;
-  height: auto;
+/* planets */
+.bigRed{
+    max-width: 100%;
   float:right;
   margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+margin-top:auto;
+     width: 40%; 
+     top:-80px;
+     position:relative;
+}
+
+.bigYellow{
+    max-width: 100%;
+    float:left;
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top:-10%;
+       width: 40%; 
+}
+
+.bigPurple{
+    max-width: 100%;
+    float: right;
+    margin-left: auto;
+    width: 40%;
+    left: 30%;
+    position: relative;
+    top: -110px;
 }
 .bounceMe{
 animation: bounce2 2s ease infinite;
       }
-@keyframes bounce2 {
+@keyframes bounce2{
 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
 40% {transform: translateY(-30px);}
 60% {transform: translateY(-15px);}
 } 
-    
-    
-    
-    
     
