@@ -5,6 +5,7 @@ body {
     background-attachment: fixed;
     height:100%;
     width:100%;
+    overflow-x: hidden;
 }
 .topNav{
     display:flex;
@@ -33,14 +34,19 @@ body {
     min-height: 104px;
     width: 372px;
   }
-.top-button-container{
-margin:2px;
-display: inline-block;
-}
-.btn-primary{
-background-color: #0B3D91;
-}
+
+
 /* buttons*/
+.top-button-container{
+    margin:2px;
+    display: inline-block;
+    }
+    .btn-primary{
+    background-color: #0B3D91;
+    }
+.btn-lg{
+margin-left:30px;
+}
 .btnPlanet{
     margin-left:50%;
     margin-top:5%;
@@ -66,10 +72,30 @@ margin-left: auto;
 top: 150px;
 position: relative;
 }
+
 h1{
     margin-left: 40%;
     margin-top:3%;
     color:white;
+    text-decoration: underline;
+}
+h2{
+    Font-size: 35px;
+    color:white;
+    Position:relative;
+    top:700px;
+    left:-10%;
+    white-space: nowrap;
+    text-decoration: underline;
+}
+h3{
+    Font-size: 35px;
+    color:white;
+    Position:relative;
+    top:-80px;
+    left:50%;
+    white-space: nowrap;
+    text-decoration: underline;
 }
 
 /* planets */
@@ -81,6 +107,7 @@ margin-top:auto;
      width: 40%; 
      top:-80px;
      position:relative;
+     animation: bounce2 2s ease infinite;
 }
 
 .bigYellow{
@@ -89,7 +116,8 @@ margin-top:auto;
     margin-left: auto;
     margin-right: 5%;
     margin-top:-10%;
-       width: 40%; 
+       width: 40%;
+       animation: bounce2 3s ease infinite;
 }
 
 .bigPurple{
@@ -100,8 +128,9 @@ margin-top:auto;
     left: 30%;
     position: relative;
     top: -110px;
+    animation: bounce2 4s ease infinite;
 }
-.bounceMe{
+bounceMe{
 animation: bounce2 2s ease infinite;
       }
 @keyframes bounce2{
@@ -109,4 +138,47 @@ animation: bounce2 2s ease infinite;
 40% {transform: translateY(-30px);}
 60% {transform: translateY(-15px);}
 } 
-    
+
+.alienglorp{
+    max-width: 100%;
+    left:-5%;
+    Position:relative;
+    top:5px;
+}
+.form-inline{
+    Position:relative;
+    top:5px;
+    margin-left:30%; 
+}
+.form-control{
+    padding: 20px 150px;
+}
+
+.games{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    position:relative;
+    top:150px
+}
+
+.card-text{
+font-size:large;
+font-weight: 600;
+}
+
+.footer{
+    background: #000000;
+    color:white;
+    position:relative;
+    top:200px;
+}
+.contacts{
+    position:relative;
+    left:50px;
+    top:40px;
+}
+.social-footer2{
+    display: flex;
+list-style: none;
+}
